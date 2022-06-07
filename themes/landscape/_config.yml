@@ -3,7 +3,7 @@ menu:
   Home: /
   Archives: /archives
 rss: /atom.xml
-banner: "images/banner.jpg"
+banner: "https://pic.imgdb.cn/item/629ef814094754312983e48f.png"
 
 # Content
 excerpt_link: Read More
