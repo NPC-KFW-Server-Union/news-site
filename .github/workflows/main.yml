@@ -8,11 +8,11 @@ on:
   push:
     branches: [ "master" ]
     paths:   # 这里是用来指定哪个文件更改，才会触发的
-      - 'source'
+      - 'source/**'
   pull_request:
     branches: [ "master" ]
     paths:   # 这里是用来指定哪个文件更改，才会触发的
-      - 'source'
+      - 'source/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
