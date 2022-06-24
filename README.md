@@ -49,16 +49,19 @@ categories: 分类
 
 ## 怎么提交，并将修改「应用」到新闻网站
 
-如果你是NPCKFW邦联组织的成员，你可以直接推送commit到中心仓库master分支，不需要创建Pull request然后等待审核并同意。
+如果你是NPCKFW邦联组织的成员，你可以直接推送commit到中心仓库`master`分支，不需要创建Pull request然后等待审核并同意。
 
-一旦将commit推送到中心仓库master分支，GITHUB就会**立刻**自动编译并上传结果HTML到<https://news.npc-kfw-union.eati.top/>的
+一旦将**对文章的修改的**commit推送到中心仓库`master`分支，GITHUB的CI就会反应，**立刻**自动编译并上传结果HTML到<https://news.npc-kfw-union.eati.top/>的
 网页服务器上，用户就会在新闻网站看到你所做的修改。
 
-所以**请勿频繁推送**，**请想好了再推送**！先在本地修改好了，将文辞句子确定了，最后再推送到中心仓库的master分支。
+所以**请勿频繁推送**，**请想好了再推送**！先在本地修改好了，将文辞句子确定了，最后再推送到中心仓库的`master`分支。
 
 > 如果你不是NPCKFW邦联组织的成员，你可以建立Pull request。
 
-对单个文章的创建/修改必须在一个commit之内完成（在你自己的仓库如何无所谓，只要推送到中心master仓库是如此便行了）。如果
+对单个文章的创建/修改必须在一个commit之内完成（在你自己的仓库如何无所谓，只要推送到中心仓库`master`时候如此便行了）。如果
 单次发文章/修改用了多次commit，[请合并成一次再push](https://www.likecs.com/show-203527513.html)。
 
 一个commit可以包含多个贴文的创建和修改。
+
+请注意：本仓库的CI只会在对`source`目录的修改的commit push时候才会触发。换句话说，如果不是修改文章而是别的地方（比如主题等），
+CI不会反应，不会编译并上传结果HTML到新闻网站服务器。你需要手动运行CI。
