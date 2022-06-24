@@ -106,3 +106,9 @@ Plugins:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# search plugin
+search:
+  path: search.xml
+  field: post
+  content: true
