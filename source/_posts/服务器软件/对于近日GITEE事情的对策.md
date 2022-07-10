@@ -1,8 +1,11 @@
 ---
 title: 对于近日GITEE事情的对策
-date: 2022-05-18 13:32:39
-tags: [git, 客户端]
+tags:
+  - git
+  - 客户端
 categories: 服务器软件
+abbrlink: 7e601b31
+date: 2022-05-18 13:32:39
 ---
 
 <https://zhuanlan.zhihu.com/p/517435942>
